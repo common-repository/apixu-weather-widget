@@ -1,0 +1,331 @@
+.awecf:before, .awecf:after {
+    content: " ";
+    display: table;
+}
+
+.awecf:after {
+    clear: both;
+}
+
+.awecf {
+    *zoom: 1;
+}
+
+.apixu-weather-wrap {
+    transition: background 0.5s ease-in;
+    color: #fff;
+    clear: both;
+}
+
+.apixu-weather-wrap div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.apixu-weather-wrap.darken {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.apixu-weather-cover {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.apixu-weather-darken {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.apixu-weather-header {
+    padding: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}
+
+.apixu-weather-wrap.darken .apixu-weather-header {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.apixu-weather-current-temp {
+    padding: 15px;
+    width: 50%;
+    float: left;
+    font-size: 66px;
+    line-height: 1em;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+.apixu-weather-current-temp sup {
+    font-size: 24px;
+    padding-left: 3px;
+}
+
+.apixu-weather-todays-stats {
+    float: right;
+    text-align: right;
+    padding: 15px;
+    line-height: 1.4em;
+    width: 50%;
+}
+
+.apixu-weather-todays-stats-big-pict {
+    text-align: left;
+    padding: 15px 15px 5px 15px;
+    width: 100%;
+}
+
+.apixu-weather-todays-stats-location {
+    text-align: left;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.awe_tall .apixu-weather-todays-stats {
+    padding: 0 10px 15px 10px;
+}
+
+.apixu-weather-forecast {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px 10px;
+    clear: both;
+}
+
+.apixu-weather-forecast-day {
+    width: 18%;
+    margin: 0 1%;
+    float: left;
+    text-align: center;
+    font-weight: 300;
+}
+
+.awe_days_2 .apixu-weather-forecast-day {
+    width: 48%;
+}
+
+.awe_days_3 .apixu-weather-forecast-day {
+    width: 31%;
+}
+
+.awe_days_4 .apixu-weather-forecast-day {
+    width: 23%;
+}
+
+.apixu-weather-forecast-day-temp {
+    font-size: 1.3em;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+.apixu-weather-forecast-day-temp sup {
+    font-size: 0.6em;
+    padding-left: 2px;
+}
+
+.apixu-weather-forecast-day-abbr {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 300;
+    margin-top: 5px;
+    padding-right: 4px;
+}
+
+.awe_tall .apixu-weather-current-temp,
+.awe_tall .apixu-weather-todays-stats,
+.awe_without_stats .apixu-weather-current-temp {
+    text-align: center;
+    width: 100%;
+    float: none;
+}
+
+#sidebar .awe_wide .apixu-weather-current-temp,
+#secondary .awe_wide .apixu-weather-current-temp {
+    font-size: 40px;
+}
+
+#sidebar .awe_wide .apixu-weather-todays-stats,
+#secondary .awe_wide .apixu-weather-todays-stats {
+    font-size: 12px;
+}
+
+.apixu-weather-more-weather-link {
+    padding: 10px;
+    text-align: center;
+}
+
+.awe_wide .apixu-weather-todays-stats-big-pict {
+    width: 50%;
+    float: left;
+}
+
+.awe_wide .apixu_descr {
+    padding-top: 30px;
+}
+
+.awe_wide .apixu-weather-todays-stats {
+    display: none;
+}
+
+.apixu-weather-more-weather-link a {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 0.8em;
+}
+
+/* ERROR */
+div.apixu-weather-error {
+    color: #ed7469;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border: solid 1px #ed7469;
+    text-transform: uppercase;
+}
+
+.apixu_descr {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* cases */
+.shm_4 .apixu-weather-cover, .shm_7 .apixu-weather-cover {
+    color: #fff;
+}
+
+.scheme_41 .apixu-weather-cover {
+    background-image: url(./img/apixu-backgrounds/4_widget1.png);
+}
+
+.scheme_42 .apixu-weather-cover {
+    background-image: url(./img/apixu-backgrounds/4_widget2.png);
+}
+
+.scheme_43 .apixu-weather-cover {
+    background-image: url(./img/apixu-backgrounds/4_widget3.png);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.scheme_44 .apixu-weather-cover {
+    background-image: url(./img/apixu-backgrounds/4_widget4.png);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.scheme_45 .apixu-weather-cover {
+    background-image: url(./img/apixu-backgrounds/4_widget5.png);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.shm_4 .apixu-weather-todays-stats-big-pict {
+    text-align: center;
+}
+
+.shm_4 .apixu-weather-todays-stats-location {
+    text-align: center;
+    /*padding: 0px;*/
+    padding: 15px 0px 0px 0px;
+}
+
+.shm_4 .apixu-weather-more-weather-link {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.scheme_72 .apixu-weather-cover {
+    background-image: url(./img/apixu-backgrounds/7_widget2.png);
+}
+
+.scheme_73 .apixu-weather-cover {
+    background-image: url(./img/apixu-backgrounds/7_widget3.png);
+}
+
+.shm_7 .apixu-weather-todays-stats-big-pict {
+    text-align: center;
+}
+
+.shm_7 .apixu-weather-todays-stats-location {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+
+.shm_7 .apixu-weather-more-weather-link {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.shm_7 .apixu-weather-forecast-day {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.shm_7 .apixu-weather-forecast-day > div:first-child {
+    width: 40%;
+    float: left;
+    text-transform: uppercase;
+}
+
+.shm_7 .apixu-weather-forecast-day > div {
+    width: 20%;
+    float: left;
+}
+
+.shm_7 .apixu-weather-forecast-day > div img {
+    max-width: none;
+    margin-top: -30px;
+}
+
+.shm_7 .apixu-weather-forecast-day > div:last-child {
+    width: 30%;
+    float: left;
+}
+
+.shm_8 .apixu-weather-cover {
+    box-shadow: 1px 1px 5px lightgray;
+}
+
+.shm_8 .apixu-weather-more-weather-link {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.shm_8 .apixu-weather-todays-stats-big-pict {
+    text-align: center;
+}
+
+.shm_8 .apixu-weather-todays-stats-location {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.shm_8 .apixu-weather-current-temp {
+    width: 100%;
+    text-align: right;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.awe_wide.shm_8 .apixu-weather-todays-stats-location {
+    padding-top: 30px;
+}
+
+.shm_8 .apixu_desc {
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.scheme_1 .apixu-weather-more-weather-link {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.scheme_1 .apixu_descr {
+    text-align: left;
+    margin-left: 30px;
+}
